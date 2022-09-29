@@ -106,5 +106,9 @@ venv.bak/
 # Pycharm
 .idea/
 
+# VScode
+.vscode/*
+!.vscode/launch.json
+
 datasets/*
 !datasets/download_miniimagenet.sh

@@ -8,6 +8,9 @@ given in data/mini_imagenet.txt which is downloaded from the link provided in th
     data/miniImageNet/images
 2. Run the script
 """
+import sys
+sys.path.append(".")
+
 from tqdm import tqdm as tqdm
 import numpy as np
 import shutil

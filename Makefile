@@ -6,3 +6,4 @@ poetry:
 	./datasets/download_miniimagenet.sh
 	rm miniimagenet.tar
 	mv miniimagenet datasets/miniimagenet
+	pip install -U autopep8
